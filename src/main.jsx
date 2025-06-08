@@ -6,8 +6,7 @@ import Layout from './Layout.jsx'
 import Home from './components/screens/Home.jsx'
 import About from './components/screens/About.jsx'
 import Contact from './components/screens/Contact.jsx'
-import Github from './components/screens/Github.jsx'
-import User from './components/screens/User.jsx'
+import './index.css'
 
 const routes = createBrowserRouter([
   {
@@ -33,15 +32,15 @@ const routes = createBrowserRouter([
         element: <Contact />
       },
       
-      {
-        path: "user",
-        element: <User />
-      },
+      // {
+      //   path: "user",
+      //   element: <User />
+      // },
       
-      {
-        path: "github",
-        element: <Github />
-      },
+      // {
+      //   path: "github",
+      //   element: <Github />
+      // },
     ]
   }
 ])
