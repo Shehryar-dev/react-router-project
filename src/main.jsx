@@ -8,6 +8,7 @@ import About from './components/screens/About.jsx'
 import Contact from './components/screens/Contact.jsx'
 import './index.css'
 import User from './components/screens/User.jsx'
+import Github from './components/screens/Github.jsx'
 
 // const routes = createBrowserRouter([
 //   {
@@ -47,16 +48,17 @@ import User from './components/screens/User.jsx'
 // ])
 
 
-const routes = createBrowserRouter([
+const routes = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
       <Route path='' element={<Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/contact' element={<Contact />} />
-      <Route path='/user/:id' element={<User />} />
+      <Route path='about' element={<About />} />
+      <Route path='contact' element={<Contact />} />
+      <Route path='user/:id' element={<User />} />
+      <Route path='github' element={<Github />} />
     </Route>
   )
-])
+)
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
