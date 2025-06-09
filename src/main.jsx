@@ -7,6 +7,7 @@ import Home from './components/screens/Home.jsx'
 import About from './components/screens/About.jsx'
 import Contact from './components/screens/Contact.jsx'
 import './index.css'
+import User from './components/screens/User.jsx'
 
 // const routes = createBrowserRouter([
 //   {
@@ -52,7 +53,7 @@ const routes = createBrowserRouter([
       <Route path='' element={<Home />} />
       <Route path='/about' element={<About />} />
       <Route path='/contact' element={<Contact />} />
-      <Route path='/user/:id' element={<Contact />} />
+      <Route path='/user/:id' element={<User />} />
     </Route>
   )
 ])
