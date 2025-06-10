@@ -30,7 +30,7 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="./public/b8.png" alt="image1" />
+                    <img className="w-96" src="/public/b8.png" alt="image1" />
                 </div>
             </aside>
 
