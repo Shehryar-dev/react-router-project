@@ -8,7 +8,7 @@ import About from './components/screens/About.jsx'
 import Contact from './components/screens/Contact.jsx'
 import './index.css'
 import User from './components/screens/User.jsx'
-import Github from './components/screens/Github.jsx'
+import Github, { githubHubInfo } from './components/screens/Github.jsx'
 
 // const routes = createBrowserRouter([
 //   {
@@ -55,7 +55,7 @@ const routes = createBrowserRouter(
       <Route path='about' element={<About />} />
       <Route path='contact' element={<Contact />} />
       <Route path='user/:id' element={<User />} />
-      <Route path='github' element={<Github />} />
+      <Route loader={githubHubInfo} path='github' element={<Github />} />
     </Route>
   )
 )

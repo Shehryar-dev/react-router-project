@@ -1,15 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState,  } from 'react';
+import { useLoaderData } from 'react-router-dom';
 
 function Github() {
-    const [data, setData] = useState(null);
+    const data = useLoaderData();
+    // const [data, setData] = useState(null);
 
-    useEffect(() => {
-        fetch('https://api.github.com/users/Shehryar-dev')
-            .then(response => response.json())
-            .then(data => {
-                setData(data);
-            });
-    }, []);
+    // useEffect(() => {
+    //     fetch('https://api.github.com/users/Shehryar-dev')
+    //         .then(response => response.json())
+    //         .then(data => {
+    //             setData(data);
+    //         });
+    // }, []);
 
     if (!data) return <div className="text-center text-gray-500">Loading...</div>;
 
@@ -70,6 +72,5 @@ export default Github;
 
 export const githubHubInfo = async () => {
     let response = await fetch('https://api.github.com/users/Shehryar-dev');
-
     return response.json();
 }
