@@ -22,7 +22,7 @@ export default function About() {
                             to="/team"
                             className="bg-indigo-700 text-white px-6 py-3 rounded-md hover:bg-indigo-800 transition"
                         >
-                            Meet Our Team
+                            Meet Our Family
                         </Link>
                         <Link
                             to="/contact"
