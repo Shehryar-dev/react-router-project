@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
-        <div className="mx-auto w-full max-w-7xl font-sans">
-            <aside className="relative overflow-hidden text-white bg-gradient-to-r from-indigo-900 via-purple-800 to-indigo-900 rounded-lg sm:mx-16 mx-2 sm:py-24 py-16">
+        <div className="w-full font-sans">
+            <aside className="relative w-full overflow-hidden text-white bg-gradient-to-r from-indigo-900 via-purple-800 to-indigo-900 rounded-lg    p-16">
                 <div className="relative z-10 max-w-screen-xl px-4 pb-20 pt-10 sm:py-10 mx-auto sm:px-6 lg:px-8">
                     <div className="max-w-xl space-y-6 text-center sm:text-left sm:ml-auto">
                         <h2 className="text-4xl sm:text-5xl font-bold leading-tight">
