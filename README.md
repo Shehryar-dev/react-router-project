@@ -9,13 +9,13 @@ This is a React project built with `react-router-dom` and `tailwindcss`. It show
 ## 📷 Screenshots
 
 ### 🏠 Home Page
-![Home Screenshot](./screenshots/home.png)
+![Home Screenshot](public/home.png)
 
 ### 👤 GitHub Profile Page
-![GitHub Screenshot](./screenshots/github.png)
+![GitHub Screenshot](public/github.png)
 
 ### 📄 About Page
-![About Screenshot](./screenshots/about.png)
+![About Screenshot](public/about.png)
 
 ## ⚙️ Features
 
@@ -62,7 +62,7 @@ src/
 ├── components/
 │   ├── Header.jsx
 │   ├── Footer.jsx
-├── pages/
+├── screens/
 │   ├── Home.jsx
 │   ├── About.jsx
 │   ├── Contact.jsx
